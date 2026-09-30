@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 40px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.trip-details {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.trip-details label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.trip-details input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#activity-input {
+    width: 70%;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#activity-list {
+    padding: 0;
+}
+
+#activity-list li {
+    list-style: none;
+    background-color: white;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#save-trip {
+    margin-top: 20px;
+    padding: 12px 24px;
+    width: 100%;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    background-color: #222;
+    color: white;
+
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+    opacity: 0.85;
+}

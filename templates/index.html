@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Trip Planner</title>
+    <link rel = "stylesheet" href = {{ url_for('static', filename='style.css') }}>
+</head>
+
+<body>
+    <h1>✈️ Trip Planner</h1>
+
+    <div class="trip-details">
+        <h2>Plan Your Trip</h2>
+    
+        <label for="destination">Destination</label>
+        <input type="text"  id="destination" placeholder="Where are you going?"> 
+
+        <label for="start-date">Start Date</label>
+        <input type="date" id="start-date">
+
+        <label for="end-date">End Date</label>
+        <input type="date" id="end-date">
+
+        <button type="button" id="save-trip">Save Trip</button>
+    </div>
+
+    <h2>Activities</h2>
+
+    <input type="text" id ="activity-input" placeholder="Enter an activity" >
+    <button type="button" id="add-button"> Add Activity</button>
+
+    <ul id="activity-list"></ul>
+
+    <script src={{ url_for('static', filename='script.js') }}></script>
+
+
+</body>
