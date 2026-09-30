@@ -33,3 +33,7 @@ This project helped me practice connecting the different parts of a full-stack a
 - Connecting Flask to SQLite
 - Using SQL to insert, select, and delete data
 - Keeping the browser interface synchronized with the database
+
+## Live Demo
+
+[View the deployed application](https://trip-planner-8rax.onrender.com)
